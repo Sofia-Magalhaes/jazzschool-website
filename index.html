@@ -14,24 +14,30 @@
 
 <body>
     <header>
-        <img src="./src/img/logo.svg" alt="Tom's Jazz School">
-        <nav class="mt-1 mx-auto">
-            <a href="#">Inicio</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        <div class="container">
+            <img src="./src/img/logo.svg" alt="Tom's Jazz School">
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        </div>
     </header>
     <main>
         <section class="hero-section">
-            <img src="./src/img/hero-img.svg" alt="Banda de Jazz tocando">
-            <div>
-                <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
-                <p class="mt-2 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus expedita officiis iste
-                    dignissimos numquam obcaecati voluptates! Aspernatur est suscipit itaque? Aspernatur, dolor dicta.
-                    Quasi distinctio, repudiandae molestiae deserunt similique modi.</p>
-                <a href="#" class="button">Comece agora</a>
+            <div class="container row-reverse">
+                <img src="./src/img/hero-img.svg" alt="Banda de Jazz tocando">
+                <div>
+                    <h1 class="mt-2">Crie algo <span class="text-primary decoration">impactante</span> com música</h1>
+                    <p class="mt-2 mb-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus expedita
+                        officiis iste
+                        dignissimos numquam obcaecati voluptates! Aspernatur est suscipit itaque? Aspernatur, dolor
+                        dicta.
+                        Quasi distinctio, repudiandae molestiae deserunt similique modi.</p>
+                    <a href="#" class="button">Comece agora</a>
+                </div>
             </div>
         </section>
         <section class="courses-section">
@@ -82,23 +88,24 @@
         </section>
     </main>
     <footer>
-        <div>
-            <img src="./src/img/logo.svg" alt="Tom's Jazz School" class="mb-1">
-            <p class="mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque accusamus error unde architecto
-                eligendi dolores dolorem quidem, consequatur ab, tempore expedita possimus molestiae excepturi amet hic.
-                Neque, sequi suscipit?</p>
+        <div class="container">
+            <div class="about-column">
+                <img src="./src/img/logo.svg" alt="Tom's Jazz School" class="mb-1">
+                <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam atque accusamus error
+                    unde architecto.</p>
+            </div>
+            <nav class="mb-2">
+                <a href="#">Inicio</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contato</a>
+            </nav>
+            <form class="newsletter-form">
+                <label for="email" class="mb-1">Recebe materiais gratuitos no seu email</label>
+                <input type="text" name="email" id="email" placeholder="Digite seu email" class="mb-1">
+                <button class="button mb-2">Quero receber</button>
+            </form>
         </div>
-        <nav class="mb-2">
-            <a href="#">Inicio</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contato</a>
-        </nav>
-        <form class="newsletter-form">
-            <label for="email" class="mb-1">Recebe materiais gratuitos no seu email</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu email" class="mb-1">
-            <button class="button mb-2">Quero receber</button>
-        </form>
     </footer>
 </body>
 
